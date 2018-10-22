@@ -28,4 +28,3 @@ namespace MvvmCrossDemo.Core.Services
 ```
 
 Later I will use a real `REST` API service to show how to get the data from an online API.
-

@@ -4,9 +4,9 @@
 
 * [Creating the Core project](creating-the-core-project/README.md)
   * [Understanding MVVM](creating-the-core-project/understanding-mvvm.md)
-* [Adding a simple Service](adding-a-simple-service.md)
-* [Adding a ViewModel](adding-a-viewmodel.md)
-* [Adding an App class](adding-an-app-class.md)
+  * [Adding a simple Service](creating-the-core-project/adding-a-simple-service.md)
+  * [Adding a ViewModel](creating-the-core-project/adding-a-viewmodel.md)
+  * [Adding an App class](creating-the-core-project/adding-an-app-class.md)
 * [Creating the Android project](creating-the-android-project.md)
 * [Adding an Android Application class](adding-an-android-application-class.md)
 * [Adding the Android Layout View \(AXML\)](adding-the-android-layout-view-axml.md)

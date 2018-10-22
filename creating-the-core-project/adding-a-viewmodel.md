@@ -6,17 +6,17 @@ In the `ViewModel`, we need to have some values that are used to bind to the con
 
 Download this file and import it into your Code Snippets Manager, or just place them in this folder: C:\Users\YourUserName\Documents\Visual Studio 2017\Code Snippets\Visual C\#\My Code Snippets\MvvmCross.
 
-![](.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 Now you can input the shortcut  `mvxpropdp` for the properties:
 
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 When I set the value to the property, it will call the `SetProperty(ref _property, value)` method that comes from `MvxViewModel` to simplify the implementation of the `INotifyPropertyChanged` interface.
 
 And `mvxcmd` for the commands:
 
-![](.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 `IMvxCommand` is a build-in command interface to implement the `ICommand` interface, which can be binded to the UI controls to response the user behaviour, such as click event of the `Button`, or select event of the `ListView`. `ICommond` is mostly used in the `MVVM` applications to separate the tight coupling between the UI and the event handlers. Most of popular `MVVM` frameworks in .NET provide an implementation of `ICommand`, such as `IMvxCommand` in `MvvmCross`.
 
