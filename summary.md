@@ -40,6 +40,6 @@
 * [Creating the Android project](creating-the-android-project-1.md)
 * [Creating the iOS project](creating-the-ios-project-1.md)
 * [Creating the UWP project](creating-the-uwp-project-1.md)
-* [Summary](summary.md)
+* [Summary](summary-for-forms.md)
 * [Summary](summary-1.md)
 
