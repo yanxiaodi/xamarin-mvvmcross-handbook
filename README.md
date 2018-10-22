@@ -24,4 +24,4 @@ You can check the source code of this demo on my GitHub: [https://github.com/yan
 
 Let's get started!
 
-For the better reading experience, you can read it [here](https://yanxiaodi.gitbook.io/xamarin-mvvmcross-handbook/):
+For the better reading experience, you can read it [here](https://yanxiaodi.gitbook.io/xamarin-mvvmcross-handbook/).
