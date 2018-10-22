@@ -4,7 +4,7 @@ If you are familiar with `XML` or `XAML`, there is nothing significant differenc
 
 Now create an `AXML` item called `SplashScreen.axml` in the Resources/layout folder.
 
-![](.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 Oftentimes the Design view crashes so open it with Source view. Replace the content with the following code:
 

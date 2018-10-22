@@ -2,11 +2,11 @@
 
 Add a new Xamarin Android project with name `MvvmCross.Forms.Droid` into the solution. **DO NOT** select the Android XAML App \(Xamarin.Forms\) template item.
 
-![](.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 Select the Blank App template:
 
-![](.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
 Install the `Xamarin.Forms` package from the NuGet Package Manageer, or input the command below in the NuGet Manager Console:
 
@@ -16,7 +16,7 @@ Install-Package Xamarin.Forms
 
 Then install the `MvvmCross.Forms` package from the NuGet Package Manager by searching MvvmCross.forms:
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 If you prefer the Package Manager Console, please use this command:
 
@@ -26,11 +26,11 @@ Install-Package MvvmCross.Forms
 
 It will take a while since it need to install some related packages. Next, add the references to both `MvvmCrossDemo.Core` project and `MvvmCrossDemo.Forms.UI` project:
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 Also, we need to add the reference to `Mono.Android.Export` assembly:
 
-![](.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 Delete the `activity_main.axml` file in the Resources\layout folder because we use the `MvvmCrossDemo.Forms.UI` project to host the UI. 
 
@@ -110,5 +110,5 @@ public class MainActivity : MvxFormsAppCompatActivity<MvxFormsAndroidSetup<Core.
 
 Now you can launch the `MvvmCrossDemo.Forms.Droid` Project. The result is:
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 

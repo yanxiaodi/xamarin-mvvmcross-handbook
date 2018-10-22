@@ -2,7 +2,7 @@
 
 Create a new Xamarin.Forms Content Page item into the `MvvmCross.Forms.UI` project. Notice that do not select the other file items, as shown below:
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 Open this file and replace the content with the below codes:
 

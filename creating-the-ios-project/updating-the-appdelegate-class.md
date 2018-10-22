@@ -1,6 +1,6 @@
 # Updating the AppDelegate class
 
-Open the `AppDelegate.cs` file and change the `AppDelegate` class to inherit from MvxApplicationDelegate, MvvmCrossDemo.Core.App&gt; instead of `UIApplicationDelegate`. You can find the source code of it here: [https://github.com/MvvmCross/MvvmCross/blob/develop/ContentFiles/iOS/AppDelegate.cs.pp](https://github.com/MvvmCross/MvvmCross/blob/develop/ContentFiles/iOS/AppDelegate.cs.pp).
+Open the `AppDelegate.cs` file and change the `AppDelegate` class to inherit from `MvxApplicationDelegate<MvxIosSetup<MvvmCrossDemo.Core.App>, MvvmCrossDemo.Core.App>` instead of `UIApplicationDelegate`. You can find the source code of it here: [https://github.com/MvvmCross/MvvmCross/blob/develop/ContentFiles/iOS/AppDelegate.cs.pp](https://github.com/MvvmCross/MvvmCross/blob/develop/ContentFiles/iOS/AppDelegate.cs.pp).
 
 Then delete all the methods in this class. The result looks like this:
 
@@ -20,6 +20,3 @@ namespace MvvmCrossDemo.iOS
 }
 
 ```
-
-
-

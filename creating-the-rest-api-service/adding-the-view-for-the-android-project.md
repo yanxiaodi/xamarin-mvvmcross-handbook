@@ -90,7 +90,7 @@ Do not forget to enable the permission to connect to the Internet. Right-click t
 
 Run the App and click the `PostList` button to navigate to the `PostListView`. Now the List should show the correct data from the API, as shown below:
 
-![](.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 Be careful, we should not call any heavy operations in the first View because it is not good for the user experience.
 

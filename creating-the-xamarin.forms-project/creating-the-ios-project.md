@@ -2,15 +2,15 @@
 
 Add an iOS App \(Xamarin\) project called `MvvmCrossDemo.Forms.iOS` into the solution, like this:
 
-![](.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 Note that do not use iOS XAML App \(Xamarin.Forms\) template. Use the Blank App template and select it for iPhone:
 
-![](.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 Then install the `Xamarin.Forms` package to the project through the NuGet Package Manager:
 
-![](.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 Or install it by the command below in the NuGet Manager Console:
 
@@ -20,7 +20,7 @@ Install-Package Xamarin.Forms
 
 Install the `MvvmCross.Forms` package in the NuGet Package Manager:
 
-![](.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 Or you can install it by the command below in the NuGet Manager Console:
 
@@ -30,7 +30,7 @@ Install-Package MvvmCross.Forms
 
 Like the Android project, add the reference to the `MvvmCrossDemo.Core` project and the `MvvmCrossDemo.Forms.UI` project. Update the default namespace of the `MvvmCrossDemo.Forms.iOS` project to `MvvmCrossDemo.Forms.iOS` instead of `Blank`, like this:
 
-![](.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 Open the `AppDelegate.cs` file and update the class to inherit from `MvxFormsApplicationDelegate<MvxFormsIosSetup<Core.App, UI.App>, Core.App, UI.App>` instead of `UIApplicationDelegate`. Then delete all the pre-populated methods in the `AppDelegate` class, as shown below:
 

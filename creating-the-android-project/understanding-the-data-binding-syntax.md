@@ -1,4 +1,4 @@
-# Understand the data-binding syntax
+# Understanding the data-binding syntax
 
 Notice that we added a namespace in the `LinearLayout` node:
 

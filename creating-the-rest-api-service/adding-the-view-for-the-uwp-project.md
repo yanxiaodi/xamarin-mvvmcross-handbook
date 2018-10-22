@@ -59,5 +59,5 @@ Add a `ListView` control to the root layout and define the item template, like t
 
 Open the `Package.appxmanifest` file and select Capabilities tab, and make sure the Internet \(Client\) option is checked. Here is the result:
 
-![](.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
