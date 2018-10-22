@@ -2,17 +2,17 @@
 
 ## [USING MVVMCROSS TO CREATE YOUR FIRST XAMARIN APP](README.md)
 
-* [Creating the Core project](creating-the-core-project/README.md)
+* [Creating the Core project](creating-the-core-project/creating-the-core-project.md)
   * [Understanding MVVM](creating-the-core-project/understanding-mvvm.md)
   * [Adding a simple Service](creating-the-core-project/adding-a-simple-service.md)
   * [Adding a ViewModel](creating-the-core-project/adding-a-viewmodel.md)
   * [Adding an App class](creating-the-core-project/adding-an-app-class.md)
-* [Creating the Android project](creating-the-android-project/README.md)
+* [Creating the Android project](creating-the-android-project/creating-the-android-project.md)
   * [Adding an Android Application class](creating-the-android-project/adding-an-android-application-class.md)
   * [Adding the Android Layout View \(AXML\)](creating-the-android-project/adding-the-android-layout-view-axml.md)
   * [Understanding the data-binding syntax](creating-the-android-project/understanding-the-data-binding-syntax.md)
   * [Adding the View class](creating-the-android-project/adding-the-view-class.md)
-* [Creating the iOS project](creating-the-ios-project/README.md)
+* [Creating the iOS project](creating-the-ios-project/creating-the-ios-project.md)
   * [Updating the AppDelegate class](creating-the-ios-project/updating-the-appdelegate-class.md)
   * [Adding the iOS View for the first ViewModel](creating-the-ios-project/adding-the-ios-view-for-the-first-viewmodel.md)
   * [Understanding the data-binding syntax](creating-the-ios-project/understanding-the-data-binding-syntax.md)
@@ -42,5 +42,5 @@
   * [Creating the iOS project](creating-the-xamarin.forms-project/creating-the-ios-project-1.md)
   * [Creating the UWP project](creating-the-xamarin.forms-project/creating-the-uwp-project-1.md)
   * [Summary For Forms](creating-the-xamarin.forms-project/summary-for-forms.md)
-* [Summary](summary/README.md)
+* [Summary](summary/summary.md)
 
