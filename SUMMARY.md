@@ -1,8 +1,9 @@
 # Table of contents
 
-* [USING MVVMCROSS TO CREATE YOUR FIRST XAMARIN APP](README.md)
-* [Creating the Core project](creating-the-core-project.md)
-* [Understanding MVVM](understanding-mvvm.md)
+## [USING MVVMCROSS TO CREATE YOUR FIRST XAMARIN APP](README.md)
+
+* [Creating the Core project](creating-the-core-project/README.md)
+  * [Understanding MVVM](creating-the-core-project/understanding-mvvm.md)
 * [Adding a simple Service](adding-a-simple-service.md)
 * [Adding a ViewModel](adding-a-viewmodel.md)
 * [Adding an App class](adding-an-app-class.md)
