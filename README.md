@@ -23,3 +23,5 @@ It is very boring to introduce a lot of knowledge before you write the first lin
 You can check the source code of this demo on my GitHub: [https://github.com/yanxiaodi/MvvmCrossDemo](https://github.com/yanxiaodi/MvvmCrossDemo).
 
 Let's get started!
+
+[Contents](SUMMARY.md)
