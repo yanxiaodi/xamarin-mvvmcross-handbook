@@ -42,5 +42,5 @@
   * [Creating the iOS project](creating-the-xamarin.forms-project/creating-the-ios-project-1.md)
   * [Creating the UWP project](creating-the-xamarin.forms-project/creating-the-uwp-project-1.md)
   * [Summary For Forms](creating-the-xamarin.forms-project/summary-for-forms.md)
-* [Summary](summary/summary.md)
+* [Summary](summary/README.md)
 
