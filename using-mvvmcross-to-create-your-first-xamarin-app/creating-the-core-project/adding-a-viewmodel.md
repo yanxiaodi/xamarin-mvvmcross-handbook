@@ -2,7 +2,7 @@
 
 In the `ViewModel`, we need to have some values that are used to bind to the controls on the UI. Now create a new folder called `ViewModels` and create a new class called `FirstViewModel.cs` which inherits from the `MvxViewModel` class. `MvxViewModel` is a base class to encapsulate some essential features of the `ViewModel`, such as the `INotifyPropertyChanged` interface and the lifecycle of the page.
 
-`INotifyPropertyChanged` is the important interface when using data-binding, which can notify the clients that a property value has changed. You can get more details about this interface here: [https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged?view=netframework-4.7.2](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged?view=netframework-4.7.2) . If we implement this interface by ourselves, you might feel that it is a little bit tedious. With this base class - `MvxViewModel`, we can easily to create the properties that supports data-binding. Also, it exposes necessary lifecycle events to allow us to inject the handler to the specific lifecycle events. I created a code snippet to simplify the property inputs. You can find them here: [https://github.com/yanxiaodi/MvvmCrossDemo/blob/dev/MvvmCrossDemo/Resources/CodeSnippets/mvvmCross.snippet](https://github.com/yanxiaodi/MvvmCrossDemo/blob/dev/MvvmCrossDemo/Resources/CodeSnippets/mvvmCross.snippet).
+`INotifyPropertyChanged` is the important interface when using data-binding, which can notify the clients that a property value has changed. You can get more details about this interface here: [https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged?view=netframework-4.7.2](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged?view=netframework-4.7.2) . If we implement this interface by ourselves, you might feel that it is a little bit tedious. With this base class - `MvxViewModel`, we can easily create the properties that supports data-binding. Also, it exposes necessary lifecycle events to allow us to inject the handler to the specific lifecycle events. I created a code snippet to simplify the property inputs. You can find it here: [https://github.com/yanxiaodi/MvvmCrossDemo/blob/dev/MvvmCrossDemo/Resources/CodeSnippets/mvvmCross.snippet](https://github.com/yanxiaodi/MvvmCrossDemo/blob/dev/MvvmCrossDemo/Resources/CodeSnippets/mvvmCross.snippet).
 
 Download this file and import it into your Code Snippets Manager, or just place them in this folder: C:\Users\YourUserName\Documents\Visual Studio 2017\Code Snippets\Visual C\#\My Code Snippets\MvvmCross.
 
@@ -16,7 +16,7 @@ When I set the value to the property, it will call the `SetProperty(ref _propert
 
 And `mvxcmd` for the commands:
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 `IMvxCommand` is a build-in command interface to implement the `ICommand` interface, which can be binded to the UI controls to response the user behaviour, such as click event of the `Button`, or select event of the `ListView`. `ICommond` is mostly used in the `MVVM` applications to separate the tight coupling between the UI and the event handlers. Most of popular `MVVM` frameworks in .NET provide an implementation of `ICommand`, such as `IMvxCommand` in `MvvmCross`.
 

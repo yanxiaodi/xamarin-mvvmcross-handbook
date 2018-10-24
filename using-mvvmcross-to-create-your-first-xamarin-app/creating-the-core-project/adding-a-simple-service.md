@@ -1,6 +1,6 @@
 # Adding a simple Service
 
-Create a folder in the `MvvmCrossDemo.Core` project and name it as Services. Then create a new interface called `IGreetingService.cs` into this folder to show the greeting text:
+Create a folder in the `MvvmCrossDemo.Core` project and name it as `Services`. Then create a new interface called `IGreetingService.cs` into this folder to show the greeting text:
 
 ```csharp
 namespace MvvmCrossDemo.Core.Services

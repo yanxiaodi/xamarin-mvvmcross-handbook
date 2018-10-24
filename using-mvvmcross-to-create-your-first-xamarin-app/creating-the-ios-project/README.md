@@ -8,5 +8,5 @@ Use the iOS App \(Xamarin\) template and select it for iPhone. Note that do not 
 
 Update the default namespace of the `MvvmCrossDemo.iOS` project.
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 

@@ -1,6 +1,6 @@
 # Adding an App class
 
-`MvvmCross` use an App class to take responsibility for registering custom object on the IoC container and start the `ViewModels`. Add an App class to the root folder and update the content like this:
+`MvvmCross` use an `App` class to take responsibility for registering custom object on the IoC container and start the `ViewModels`. Add an `App` class to the root folder and update the content like this:
 
 ```csharp
 using MvvmCross.IoC;
@@ -26,9 +26,9 @@ namespace MvvmCrossDemo.Core
 }
 ```
 
-The App class inherits from `MvxApplication` class which comes from `MvvmCross`. You can name it as you like but I recommend you call it App. In this class we do two important things, one is to register all the services as singleton pattern \(because usually, the names of these services end with “Service”\), another is to call a `ViewModel` named `FirstViewModel` to show the first view when the app starts, which I described in the previous section.
+The `App` class inherits from `MvxApplication` class which comes from `MvvmCross`. You can name it as you like but I recommend you call it `App`. In this class we do two important things, one is to register all the services as singleton pattern \(because usually, the names of these services end with “`Service`”\), another is to call a `ViewModel` named `FirstViewModel` to show the first view when the app starts, which I described in the previous section.
 
-The code uses `Reflection` to find all classes in the `MvvmCrossDemo.Cor`e assembly which have a public constructor and with names ending in Service, then find their interfaces and register them as lazy singletons. Lazy means it will not be created until it is first to be used in the app lifecycle. Using Service as the name ending is a convention. You can change it, but it is highly recommended to follow the convention.
+The code uses `Reflection` to find all classes in the `MvvmCrossDemo.Core` assembly which have a public constructor and with names ending in Service, then find their interfaces and register them as lazy singletons. Lazy means it will not be created until it is first to be used in the app lifecycle. Using `Service` as the name ending is a convention. You can change it, but it is highly recommended to follow the convention.
 
 `MvvmCross` provides us with an IoC container to manage the implementation for all the services. With the registration, the `ViewModel` will get the instance of the interface automatically without initializing it through the constructor injection, which is a common method to implement `Dependency Injection` \(The other methods contain setter injection, method injection, etc.\), like this:
 
@@ -60,9 +60,9 @@ To sum up this section, we have completed these steps:
 
 * We created the Core project for all specific platforms based on .NET Standard.
 * We created a service interface and the implementation of it.
-* We created an App class to register the services and call the first ViewModel/View.
-* We created one ViewModel and inject the service instance into it to complete the logic.
-* We also added the code snippets to simplify the input.
+* We created an App class to register the services and call the first `ViewModel`/`View`.
+* We created one `ViewModel` and inject the service instance into it to complete the logic.
+* We also added the code snippet to simplify the input.
 
 Now we can add the specific platform projects.
 
