@@ -26,7 +26,7 @@ Then set the Class property and the Storyboard ID of it to `FirstView`. Make sur
 
 ![](../../.gitbook/assets/image%20%2827%29.png)
 
-Then it will create two files: the `FirstView.cs` and the `FirstView.designer.cs`. Move them to the `Views` folder. Change the namespace of the `FirstView.cs`  and the `FirstView.designer.cs` from `Blank` to `MvvmCrossDemo.iOS.Views`. Update the `FirstView` class to inherit from `MvxViewController<FirstViewModel>`, and add an attribute called `MvxFromStoryboard` with a parameter `FirstView` as shown below:
+Then it will create two files: the `FirstView.cs` and the `FirstView.designer.cs`. Move them to the `Views` folder. Change the namespace of the `FirstView.cs`  and the `FirstView.designer.cs` from `Blank` to `MvvmCrossDemo.iOS.Views`. Update the `FirstView` class to inherit from `MvxViewController<FirstViewModel>`, and add an attribute called `MvxFromStoryboard` with a parameter `FirstView` , which indicates the name of the storyboard file, as shown below:
 
 ```csharp
 using MvvmCross.Binding.BindingContext;
