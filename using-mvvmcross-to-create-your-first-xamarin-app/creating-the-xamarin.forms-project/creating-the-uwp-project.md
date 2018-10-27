@@ -20,7 +20,7 @@ Install-Package MvvmCross.Forms
 
 Then install the `MvvmCross.Forms` package in the NuGet Package Manager:
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../.gitbook/assets/image%20%2853%29.png)
 
 Or you can input the command below in the Package Manager Console:
 

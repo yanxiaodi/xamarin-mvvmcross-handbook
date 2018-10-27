@@ -20,7 +20,7 @@ Use the designer and drag a `ViewController` from the Toolbox to the  `FirstView
 
 Click the bottom bar of the `ViewController` to select it:
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 Then set the Class property and the Storyboard ID of it to `FirstView`. Make sure the Use Storyboard ID checkbox is checked, as shown below:
 

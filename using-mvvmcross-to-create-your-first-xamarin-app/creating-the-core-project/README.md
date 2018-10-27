@@ -6,7 +6,7 @@ First, let us create a Core project for all the platform-specific projects. Open
 
 Delete the auto-generated class like Class.cs file. Then install the `MvvmCross` package from the NuGet Package Manager:
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 Or input the command in the Package Manager Console:
 

@@ -6,7 +6,7 @@ Add a new Xamarin Android project with name `MvvmCross.Forms.Droid` into the sol
 
 Select the Blank App template:
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 
 Install the `Xamarin.Forms` package from the NuGet Package Manageer, or input the command below in the NuGet Manager Console:
 
@@ -30,7 +30,7 @@ It will take a while since it need to install some related packages. Next, add t
 
 Also, we need to add the reference to `Mono.Android.Export` assembly:
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 Delete the `activity_main.axml` file in the Resources\layout folder because we use the `MvvmCrossDemo.Forms.UI` project to host the UI.
 

@@ -6,7 +6,7 @@ Create a Class Library\(.NET Standard\) project which is called `MvvmCrossDemo.F
 
 Delete the default `Class1.cs` file. Install the `Xamarin.Forms` package from the NuGet Package Manager, like this:
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 Or input the command below in the NuGet Manager Console:
 
