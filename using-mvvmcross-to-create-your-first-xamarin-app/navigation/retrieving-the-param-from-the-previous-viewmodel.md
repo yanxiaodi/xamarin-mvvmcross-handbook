@@ -50,11 +50,11 @@ public override async Task Initialize()
 
 Here is the result of the Android project:
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 For the UWP project:
 
-![](../../.gitbook/assets/image%20%2837%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 Let us get deep into the `IMvxNavigationService` in the next section.
 

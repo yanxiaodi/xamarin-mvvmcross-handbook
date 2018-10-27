@@ -2,15 +2,15 @@
 
 Add an iOS App \(Xamarin\) project called `MvvmCrossDemo.Forms.iOS` into the solution, like this:
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 Note that do not use iOS XAML App \(Xamarin.Forms\) template. Use the Blank App template and select it for iPhone:
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 Then install the `Xamarin.Forms` package to the project through the NuGet Package Manager:
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 Or install it by the command below in the NuGet Manager Console:
 
@@ -56,5 +56,5 @@ You can find the sample code of it here: [https://github.com/MvvmCross/MvvmCross
 
 That is it! All the Views of the iOS project are handled by the `MvvmCrossDemo.Forms.UI` project so we can reuse a lot of codes between these projects.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 

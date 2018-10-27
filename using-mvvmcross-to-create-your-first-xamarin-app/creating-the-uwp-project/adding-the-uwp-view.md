@@ -2,7 +2,7 @@
 
 Create a new folder called `Views` into the root folder of the `MvvmCrossDemo.Uwp` project. Add a Blank Page file called `FirstView.xaml` into the `Views` folder.
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 Open the `FirstView.xaml.cs` file and Change the base class of the `FirstView` class to `MvxWindowsPage`, like this:
 

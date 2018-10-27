@@ -27,5 +27,5 @@ Make sure the `FirstView` inherits from the `MvxActivity` class. Now `MvvmCross`
 
 Test the Android project on the phone. We should see the application like this:
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 

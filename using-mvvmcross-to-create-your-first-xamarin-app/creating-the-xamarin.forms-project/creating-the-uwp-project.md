@@ -2,15 +2,15 @@
 
 Now let us create the UWP project based on `Xamarin.Forms`. Add a new Blank App \(Windows Universal\) project to the solution:
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
 Select the proper version of Windows 10:
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 Install the `Xamarin.Forms` package in the NuGet Package Manager:
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 Or use the command below in the Package Manager Console:
 
@@ -20,7 +20,7 @@ Install-Package MvvmCross.Forms
 
 Then install the `MvvmCross.Forms` package in the NuGet Package Manager:
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 
 Or you can input the command below in the Package Manager Console:
 
@@ -30,7 +30,7 @@ Install-Package MvvmCross.Forms
 
 Then add the references to the `MvvmCrossDemo.Core` project and the `MvvmCrossDemo.Forms.UI` project by right-clicking the `MvvmCrossDemo.Forms.Uwp` project in the solution explorer:
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 Open the `App.xaml.cs` file and add a new class with name `UWPApplication`, as shown below:
 
@@ -132,5 +132,5 @@ Find the sample code here: [https://github.com/MvvmCross/MvvmCross/blob/develop/
 
 Now the UWP project based on `Xamarin.Forms` is done. Launch it and you will see the result:
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2840%29.png)
 

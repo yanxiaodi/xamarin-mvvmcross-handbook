@@ -2,7 +2,7 @@
 
 Create a new UWP project called `MvvmCrossDemo.Uwp` into the solution.
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 Probably, the default Target version is 1803\(Build 17134\), and make sure the Min version is Fall Creators Update \(Build 16299\) or higher. Because the lastest `MvvmCross` framework does not support the old version of Windows 10.
 

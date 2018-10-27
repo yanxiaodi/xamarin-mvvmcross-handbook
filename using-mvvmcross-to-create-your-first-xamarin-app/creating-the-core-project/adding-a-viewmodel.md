@@ -16,7 +16,7 @@ When I set the value to the property, it will call the `SetProperty(ref _propert
 
 And `mvxcmd` for the commands:
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 `IMvxCommand` is a build-in command interface to implement the `ICommand` interface, which can be binded to the UI controls to response the user behaviour, such as click event of the `Button`, or select event of the `ListView`. `ICommond` is mostly used in the `MVVM` applications to separate the tight coupling between the UI and the event handlers. Most of popular `MVVM` frameworks in .NET provide an implementation of `ICommand`, such as `IMvxCommand` in `MvvmCross`.
 
