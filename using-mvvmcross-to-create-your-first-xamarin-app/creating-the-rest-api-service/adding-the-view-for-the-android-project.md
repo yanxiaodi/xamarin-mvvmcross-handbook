@@ -7,7 +7,7 @@ Add a button to the `FirstView.axml` in the Resources\layout folder of the `Mvvm
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         local:MvxBind="Text Greeting" />
-    <Button android:width="match_parent"
+    <Button android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Post List"
         local:MvxBind="Click NavToPostListAsyncCommand">
