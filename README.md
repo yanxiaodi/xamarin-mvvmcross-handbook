@@ -8,7 +8,7 @@ As an UWP developer, I am used to using the `MVVM` pattern to develop my APPs. B
 
 `MvvmCross` is a cross-platform `MVVM` framework which supports `Xamarin`, `iOS`, `Xamarin.Android`, `Xamarin.Mac`, `Xamarin.Forms`, `UWP` and `WPF`. It implements the `Dependecy Injection` pattern, also provide us with various plugins, such as `Messenger`, `Network`, `File`, `ResourceLoader` and `Location`, etc, to support different target platforms. We can easily deliver a `Xamarin` App with it. But as the same as the other `MVVM` framework, the users need to have a fundamental understanding of `MVVM`. If not, do not worry. I will show you some basic points regarding the `MVVM` pattern, and guide you to create your first `Xamarin` App with `MvvmCross`.
 
-![](.gitbook/assets/image%20%2839%29.png)
+![](.gitbook/assets/image%20%2840%29.png)
 
 Just note that `MvvmCross` updates quickly so you might need to fine-adjust the codes in this article. The current version of `MvvmCross` is V6.2.1.
 

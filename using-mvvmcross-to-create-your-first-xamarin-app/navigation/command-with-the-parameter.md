@@ -53,6 +53,61 @@ For the `MvvmCrossDemo.Droid` project, update the data-binding in the `PostListV
 
 Now the `ListView` is able to respond the `ItemClick` event and pass the context \(the current Post\) to the `ShowPostDetailAsyncCommand`.
 
+For the `MvvmCrossDemo.iOS` project, it is a little complicated. We need to create a new class called `PostListTableSource` that inherits from `MvxTableViewSource` to replace the default `MvxStandardTableViewSource`, then override the `RowSelected` method to response the item click event:
+
+```csharp
+public class PostListTableSource : MvxTableViewSource
+{
+    private static readonly NSString PostCellIdentifier = new NSString("PostCell");
+
+    public PostListTableSource(UITableView tableView) : base(tableView)
+    {
+    }
+
+
+    protected override UITableViewCell GetOrCreateCellFor(UITableView tableView, NSIndexPath indexPath, object item)
+    {
+        var cell = TableView.DequeueReusableCell(PostCellIdentifier, indexPath);
+        cell.TextLabel.Text = ((WrapperPostViewModel)item).Post.Title;
+        cell.DetailTextLabel.Text = ((WrapperPostViewModel)item).Post.Body;
+        return cell;
+    }
+
+    public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
+    {
+        base.RowSelected(tableView, indexPath);
+        var item = this.SelectedItem;
+        ((WrapperPostViewModel)item)?.ShowPostDetailAsyncCommand
+            .Execute((WrapperPostViewModel)item);
+    }
+}
+```
+
+Then update the `PostListView` class like this:
+
+```csharp
+[MvxFromStoryboard(nameof(PostListView))]
+public partial class PostListView : MvxTableViewController<PostListViewModel>
+{
+    private PostListTableSource _source;
+    public PostListView (IntPtr handle) : base (handle)
+    {
+    }
+
+    public override void ViewDidLoad()
+    {
+        base.ViewDidLoad();
+        _source = new PostListTableSource(TableView);
+        TableView.Source = _source;
+
+        var set = this.CreateBindingSet<PostListView, PostListViewModel>();
+        set.Bind(_source).To(vm => vm.PostList);
+        set.Apply();
+        TableView.ReloadData();
+    }
+}
+```
+
 For the `MvvmCrossDemo.Uwp` project, we need to install Behaviors package first from the NuGet Package Manager. Or you can input the command below in the Package Manager Console:
 
 ```bash

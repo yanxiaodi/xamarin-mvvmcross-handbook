@@ -2,7 +2,7 @@
 
 Create a new blank Storyboard and name it as `PostList.storyboard` in the `Views` folder of the `MvvmCrossDemo.iOS` project, , and drag a `Button` to the page from the Toolbox:
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 Set the `Name` of the `Button` as `btnNavToPostList`. Then update the `FirstView.cs` in `Views` folder to bind the command to the `Button` by adding the code below into the `ViewDidLoad` method:
 
@@ -25,7 +25,9 @@ Create a new Blank Storyboard and name it as `PostListView.storyboard` in the `V
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            var source = new MvxStandardTableViewSource(TableView, "TitleText Title");
+            var source = new MvxStandardTableViewSource(TableView, 
+                UITableViewCellStyle.Subtitle, 
+                new NSString("PostItemViewCell"), "TitleText Post.Title; DetailText Post.Body");
             TableView.Source = source;
 
             var set = this.CreateBindingSet<PostListView, PostListViewModel>();
@@ -37,13 +39,13 @@ Create a new Blank Storyboard and name it as `PostListView.storyboard` in the `V
 
 ```
 
-`MvxTableViewController` is another build-in `ViewController` to present a standard iPhone table. In this view controller, we created a `MvxStandardTableViewSource` and bind it to the `TableView` in the `TableViewController`. You can bind the `TitleText` for the item in the list. At last, use this code to reload data:
+`MvxTableViewController` is another build-in `ViewController` to present a standard iPhone table. In this view controller, we created a `MvxStandardTableViewSource` and bind it to the `TableView` in the `TableViewController`. The `Table` in iOS has four built-in cell styles which support the most common data displays. Here we use `Subtitle`. You can bind the `TitleText` and `DetailText` of the item in the list. At last, use this code to reload data:
 
 ```csharp
 TableView.ReloadData();
 ```
 
-For more details, please read this article: [https://www.mvvmcross.com/documentation/platform/ios/ios-tables-and-cells](https://www.mvvmcross.com/documentation/platform/ios/ios-tables-and-cells) . The result is:
+We can extend the `MvxTableViewSource` class to customize the cell styles. For more details, please read this article: [https://www.mvvmcross.com/documentation/platform/ios/ios-tables-and-cells](https://www.mvvmcross.com/documentation/platform/ios/ios-tables-and-cells) . The result is:
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 

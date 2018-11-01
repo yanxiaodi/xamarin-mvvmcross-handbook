@@ -6,7 +6,7 @@ First, let us create a Core project for all the platform-specific projects. Open
 
 Delete the auto-generated class like Class.cs file. Then install the `MvvmCross` package from the NuGet Package Manager:
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 Or input the command in the Package Manager Console:
 
@@ -14,7 +14,7 @@ Or input the command in the Package Manager Console:
 Install-Package MvvmCross
 ```
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 For simplicity, we start from a simple View – HelloWorld. I am going to show a text “Hello World” on the page. `MvvmCross` offers initial sample files in its GitHub Repos. You can find them here: [https://github.com/MvvmCross/MvvmCross/blob/develop/ContentFiles/](https://github.com/MvvmCross/MvvmCross/blob/develop/ContentFiles/).
 

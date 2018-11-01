@@ -2,7 +2,7 @@
 
 Create a new Blank Android project into the solution \(do not select the Android XAML App template\) and name it as `MvvmCrossDemo.Droid`, like this:
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 Pay attention on the different project templates. There are a couple of different templates here. Notice that we need the Android App \(Xamarin\), not the Android XAML App \(Xamarin.Forms\). I will describe `Xamarin.Forms` in the next sections, but not now.
 

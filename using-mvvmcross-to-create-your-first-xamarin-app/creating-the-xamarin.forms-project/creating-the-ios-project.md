@@ -2,7 +2,7 @@
 
 Add an iOS App \(Xamarin\) project called `MvvmCrossDemo.Forms.iOS` into the solution, like this:
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](../../.gitbook/assets/image%20%2858%29.png)
 
 Note that do not use iOS XAML App \(Xamarin.Forms\) template. Use the Blank App template and select it for iPhone:
 

@@ -54,7 +54,7 @@ Here is the result of the Android project:
 
 For the UWP project:
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/image%20%2839%29.png)
 
 Let us get deep into the `IMvxNavigationService` in the next section.
 

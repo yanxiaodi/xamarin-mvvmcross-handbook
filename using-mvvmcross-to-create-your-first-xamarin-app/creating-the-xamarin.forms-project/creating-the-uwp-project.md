@@ -2,7 +2,7 @@
 
 Now let us create the UWP project based on `Xamarin.Forms`. Add a new Blank App \(Windows Universal\) project to the solution:
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/image%20%2844%29.png)
 
 Select the proper version of Windows 10:
 
@@ -20,7 +20,7 @@ Install-Package MvvmCross.Forms
 
 Then install the `MvvmCross.Forms` package in the NuGet Package Manager:
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 Or you can input the command below in the Package Manager Console:
 
@@ -132,5 +132,5 @@ Find the sample code here: [https://github.com/MvvmCross/MvvmCross/blob/develop/
 
 Now the UWP project based on `Xamarin.Forms` is done. Launch it and you will see the result:
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 
