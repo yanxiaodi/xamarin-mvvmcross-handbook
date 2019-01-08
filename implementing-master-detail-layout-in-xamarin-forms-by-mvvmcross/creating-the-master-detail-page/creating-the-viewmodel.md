@@ -1,6 +1,6 @@
 ### Creating the ViewModel
 
-Next, add a new class file called `MasterDetailViewModel` in the `ViewModels` folder in the MvxFormsMasterDetailDemo.Core project. Change it to inherit from `MvxViewModel` class. Usually, we also need to use the `NavigationService` to implement the navigation in the ViewModel. So use dependency injection to inject the instance of `IMvxNavigationService`:
+Next, add a new class file called `MasterDetailViewModel` in the `ViewModels` folder in the MvxFormsMasterDetailDemo.Core project. Change it to inherit from `MvxViewModel` class. Usually, we also need to use the `NavigationService` to implement the navigation in the ViewModel. So inject the instance of `IMvxNavigationService` by using dependency injection:
 
 ```c#
 using MvvmCross.Navigation;

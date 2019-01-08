@@ -1,6 +1,6 @@
 ## Creating the project by MvxScaffolding
 
-If you are new for MvvmCross, it might be a little bit tricky to create a Xamarin application with MvvmCross. Fortunately, we have some project templates to simplify our work. You can find them on the official documentation here: [MvvmCross getting-started](https://www.mvvmcross.com/documentation/getting-started/getting-started)   I recommend you to use this one: [MvxScaffolding](https://github.com/Plac3hold3r/MvxScaffolding) It is new and supports .net standard. You can search it by clicking Tools-Extensions and Updates in your VS 2017, like this:
+If you are new for MvvmCross, it might be a little bit tricky to create a Xamarin application with MvvmCross. Fortunately, we have some project templates to simplify our work. You can find them on the official documentation here: [MvvmCross getting-started](https://www.mvvmcross.com/documentation/getting-started/getting-started). I recommend you to use this one: [MvxScaffolding](https://github.com/Plac3hold3r/MvxScaffolding) It is new and supports .net standard. You can search it by clicking Tools-Extensions and Updates in your VS 2017, like this:
 
 ![1546816626207](../../.gitbook/assets/1546816626207.png)
 

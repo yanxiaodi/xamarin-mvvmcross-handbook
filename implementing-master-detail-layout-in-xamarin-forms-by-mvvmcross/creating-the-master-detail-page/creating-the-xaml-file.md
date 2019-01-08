@@ -1,12 +1,12 @@
 ### Creating the XAML file
 
-Xamarin.Forms provides us with some navigation mode including Hierarchical Navigation, Tabbedpage, MasterDetailPage and Modal Pages, etc. For our requirements, we want to have a hamburger menu on the main page. So we can use MasterDetailPage, which is a root page of the application and contains two areas: the left one is the MasterPage, the right one is the DetailPage. We can place the menu in the MasterPage. When clicking the menu item, the navigation service will show another page in DetailPage area.
+Xamarin.Forms provides us with some navigation modes including Hierarchical Navigation, Tabbedpage, MasterDetailPage and Modal Pages, etc. For our requirements, we want to have a hamburger menu on the main page. So we can use MasterDetailPage, which is a root page of the application and contains two areas: the left one is the MasterPage, the right one is the DetailPage. We can place the menu in the MasterPage. When clicking the menu item, the navigation service will show another page in DetailPage area.
 
 In MvvmCross, there are some corresponding `MvxFromsPagePresenter` for different page types in Xamarin.Forms, which define how a view will be displayed. We use `MvxPagePresentationAttribute` to specify different page types. For more details, please view the documentation here: [Xamarin.Forms View Presenter](https://www.mvvmcross.com/documentation/platform/xamarin.forms/xamarin-forms-view-presenter).  
 
-Open the `App.cs` file in `MvxFormsMasterDetailDemo.Core` project. Notice that the framework will start `HomeViewModel` as the first page. Now let us create a `MasterDetailPage` and use it to replace the first page.
+Open the `App.cs` file in the MvxFormsMasterDetailDemo.Core project. Notice that the framework will start `HomeViewModel` as the first page. Now let us create a `MasterDetailPage` and use it to replace the first page.
 
-Right click the Pages folder in `MvxFormsMasterDetailDemo.UI` project and select `Add`-`New Item` . Select `Content Page` from Xamarin.Forms category, like this:
+Right click the Pages folder in the MvxFormsMasterDetailDemo.UI project and select `Add`-`New Item`. Select `Content Page` from Xamarin.Forms category, like this:
 
 ![1546823362081](../../.gitbook/assets/1546823362081.png)
 
