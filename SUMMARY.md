@@ -59,7 +59,7 @@
 * [Creating the DetailPages](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/creating-the-detail-pages/README.md)
   * [Creating the ViewModels](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/creating-the-detail-pages/creating-the-viewmodels.md)
   * [Creating the XAML files](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/creating-the-detail-pages/creating-the-xaml-files.md)
-* [Implementing the Menu functionalities](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/Implementing-the-menu-functionalities/README.md)
+* [Implementing the Menu functionalities](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/implementing-the-menu-functionalities/README.md)
   * [Displaying the MasterPage and the DetailPage](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/implementing-the-menu-functionalities/displaying-the-master-page-and-the-detail-page.md)
   * [Setting the menu navigation](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/implementing-the-menu-functionalities/setting-the-menu-navigation.md)
   * [The other approaches to set the data-binding](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/implementing-the-menu-functionalities/the-other-approaches-to-set-the-data-binding.md)
