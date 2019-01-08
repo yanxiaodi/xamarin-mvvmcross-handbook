@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 
-## USING MVVMCROSS TO CREATE YOUR FIRST XAMARIN APP
+## Using MvvmCross to create your first Xamarin App
 
 * [Creating the Core project](using-mvvmcross-to-create-your-first-xamarin-app/creating-the-core-project/README.md)
   * [Understanding MVVM](using-mvvmcross-to-create-your-first-xamarin-app/creating-the-core-project/understanding-mvvm.md)
@@ -46,3 +46,6 @@
   * [Summary For Forms](using-mvvmcross-to-create-your-first-xamarin-app/creating-the-xamarin.forms-project/summary-for-forms.md)
 * [Summary](using-mvvmcross-to-create-your-first-xamarin-app/summary1.md)
 
+## Implementing MasterDetail layout in Xamarin.Forms by MvvmCross
+
+* [Introduction](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/README.md)
