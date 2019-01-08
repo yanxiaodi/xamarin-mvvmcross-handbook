@@ -77,7 +77,7 @@ Update the `ItemTemplate` like this:
 
 We made some changes to the `ItemTemplate`:
 
-First, use `ViewCell` to replace the default `TextCell`. `ViewCell` provides us with more flexibility to customize the UI. So we can define the `ItemTemplate` as you like. Fox instance, maybe we will add a icon for every menu item.
+First, use `ViewCell` to replace the default `TextCell`. `ViewCell` provides us with more flexibility to customize the UI. So we can define the `ItemTemplate` as you like. For instance, maybe we will add a icon for every menu item.
 
 In the `ViewCell` element, use a `StackLayout` control as the container, which supports `GestureRecognizers`, so we can add the `TapGestureRecognizer` to the `StackLayout`. 
 

@@ -18,7 +18,7 @@ For our requirement, we only need to add the header bar for Android and iOS. Ope
 </StackLayout>
 ```
 
-Actually, the `OnPlatform` markup is doing something that likes creating a `switch` statement in the code. It contains several `On` classes to receive the `Platform` properties, which indicate the current platform. There are some different values to identify different platforms: `iOS`, `Android`, `UWP` and `macOS`. So we can create a `StackLayout`,  which contains a `Label` control to show the app name, for Android and iOS by setting its `IsVisible` property. But for UWP, it is invisible. That means adding the code will not make any changes for UWP.
+Actually, the `OnPlatform` markup is doing something that seems like creating a `switch` statement in the code. It contains several `On` classes to receive the `Platform` properties, which indicate the current platform. There are some different values to identify different platforms: `iOS`, `Android`, `UWP` and `macOS`. So we can create a `StackLayout`,  which contains a `Label` control to show the app name, for Android and iOS by setting its `IsVisible` property. But for UWP, it is invisible. That means adding the code will not make any changes for UWP.
 
 Run the app for Android and iOS. It works fine for Android. But on iOS platform, the header bar slightly overlays the status bar of the phone, as shown below:
 

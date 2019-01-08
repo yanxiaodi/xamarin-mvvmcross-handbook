@@ -12,7 +12,7 @@ Input `MvxFormsMasterDetailDemo` as the project name. The MvxScaffolding provide
 
 ![1546817767518](../../.gitbook/assets/1546817767518.png)
 
-The default setting doesn't contain UWP project. Select it if you need to support UWP platform, and select the Min SDK version as 1803. It is recommended at the moment since some new futures are not supported in the old Windows 10 versions. Also, you need to input the Description as the UWP application name.
+The default setting doesn't contain UWP project. Select it if you need to support UWP platform, and select the Min SDK version as 1803. It is recommended at the moment since some new features are not supported in the old Windows 10 versions. Also, you need to input the Description as the UWP application name.
 
 ![1546818152434](../../.gitbook/assets/1546818152434.png)
 

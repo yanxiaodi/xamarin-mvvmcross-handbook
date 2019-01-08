@@ -11,7 +11,21 @@ Open the `MasterDetailViewModel.cs` file and override the `ViewAppearing` method
         }
 ```
 
-The `ContactsPage` is used as the DetailPage when the app starts. Because we have specified the `MvxMasterDetailPagePresentation` attributes for `MenuPage` and `ContactsPage`, so MvvmCross will find the correct position to show them. Now we can launch the app for three platforms:
+The `ContactsPage` is used as the DetailPage when the app starts. Because we have specified the `MvxMasterDetailPagePresentation` attributes for `MenuPage` and `ContactsPage`, so MvvmCross will find the correct position to show them.
+
+Open the `App.cs` file in the MvxFormsMasterDetailDemo.Core project, and replace the first page by `MasterDetailPage`:
+
+```c#
+    public class App : MvxApplication
+    {
+        public override void Initialize()
+        {
+            RegisterAppStart<MasterDetailViewModel>();
+        }
+    }
+```
+
+Now we can launch the app for three platforms:
 
 Android:
 
