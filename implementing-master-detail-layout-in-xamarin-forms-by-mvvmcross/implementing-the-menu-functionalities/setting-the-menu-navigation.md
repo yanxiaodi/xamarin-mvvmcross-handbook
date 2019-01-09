@@ -116,7 +116,7 @@ This method receives a parameter, which come from the command-binding. So we can
 
 Now launch the app and observe the navigation behavior. There is another problem. When clicking the menu item, although the DetailPage shows correctly, the MenuPage still covers the DetailPage. So we must control the navigation behavior of the MasterPage. To do it, we need to install Xamarin.Forms to the MvxFormsMasterDetailDemo.Core project. You can install it by searching `Xamarin.Forms` in the NuGet Package Manager. Please install the same version of Xamarin.Forms with the other project to avoid reference errors. For my demo solution, I use `Xamarin.Forms.3.4.0.1008975`.
 
-Add some code into the `ShowDetailPageAsync` method after the `switch` segment:
+Add some code into the `ShowDetailPageAsync` method after the `switch` segment(This code snippet comes from https://github.com/MvvmCross/MvvmCross/issues/2995):
 
 ```c#
 if (Application.Current.MainPage is MasterDetailPage masterDetailPage)
