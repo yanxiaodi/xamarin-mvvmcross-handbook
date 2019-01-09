@@ -66,5 +66,5 @@
 * [Fine-tuning the UI](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/fine-tuning-the-ui/README.md)
   * [Adding the hamburger icon for iOS](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/fine-tuning-the-ui/adding-the-hamburger-icon-for-ios.md)
   * [Adding the header bar for Android and iOS](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/fine-tuning-the-ui/adding-the-header-bar-for-android-and-ios.md)
-  * [Adjust the height of the item for UWP](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/adjust-the-height-of-the-item-for-uwp.md)
+  * [Adjust the height of the item for UWP](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/fine-tuning-the-ui/adjust-the-height-of-the-item-for-uwp.md)
 * [Summary](implementing-master-detail-layout-in-xamarin-forms-by-mvvmcross/Summary1.md)
